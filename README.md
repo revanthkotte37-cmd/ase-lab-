@@ -1,4 +1,6 @@
-# Grand Horizon Hotel Room Booking
+# ase-lab-
+
+## Grand Horizon Hotel Room Booking
 
 A small, beginner-friendly hotel booking page made with HTML, CSS, and JavaScript. The feature branch adds an improved booking experience, and the develop branch clarifies that bookings are handled locally.
 
