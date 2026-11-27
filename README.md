@@ -2,7 +2,7 @@
 
 A small, beginner-friendly hotel booking page made with HTML, CSS, and JavaScript. The feature branch adds an improved booking experience.
 
-## Run the application
+## Run the booking application
 
 Open `index.html` in a web browser. Enter a guest name, choose a room and dates, then select **Book Now**. The page displays a confirmation; it does not save bookings to a database. `booking.txt` is a sample text template, not live storage.
 
