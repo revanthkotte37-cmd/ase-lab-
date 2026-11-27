@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grand Horizon Hotel | Room Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="booking-card">
+    <header class="page-header">
+      <p class="hotel-label">GRAND HORIZON HOTEL</p>
+      <h1>Book your room</h1>
+      <p class="tagline">Your stay begins with a simple booking.</p>
+    </header>
+
+    <form id="bookingForm">
+      <label for="guestName">Guest name</label>
+      <input id="guestName" name="guestName" type="text" placeholder="Enter your name" required>
+
+      <label for="roomType">Choose a room</label>
+      <select id="roomType" name="roomType" required>
+        <option value="">Select a room</option>
+        <option value="Single Room">Single Room</option>
+        <option value="Double Room">Double Room</option>
+        <option value="Family Suite">Family Suite</option>
+      </select>
+
+      <div class="date-fields">
+        <div>
+          <label for="checkIn">Check-in date</label>
+          <input id="checkIn" name="checkIn" type="date" required>
+        </div>
+        <div>
+          <label for="checkOut">Check-out date</label>
+          <input id="checkOut" name="checkOut" type="date" required>
+        </div>
+      </div>
+
+      <button type="submit">Book Now</button>
+      <p id="confirmation" class="confirmation" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+</body>
+</html>

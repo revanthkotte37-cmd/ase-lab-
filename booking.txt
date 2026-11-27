@@ -1,0 +1,8 @@
+Sample booking record (example only)
+
+Guest name:
+Room type:
+Check-in:
+Check-out:
+
+The webpage displays a confirmation but does not save booking data to this file.

@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  background: #eef4f3;
+  color: #233432;
+  font-family: Arial, sans-serif;
+}
+
+.booking-card {
+  width: min(100%, 520px);
+  padding: 36px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 12px 36px rgba(27, 66, 59, 0.12);
+}
+
+.page-header {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.hotel-label {
+  margin: 0 0 10px;
+  color: #267568;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.tagline {
+  margin: 10px 0 0;
+  color: #64736f;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid #cbd6d3;
+  border-radius: 6px;
+  background: #ffffff;
+  color: inherit;
+  font: inherit;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #70b7a9;
+  outline-offset: 1px;
+}
+
+.date-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.date-fields > div {
+  display: grid;
+  gap: 10px;
+}
+
+button {
+  min-height: 48px;
+  margin-top: 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #267568;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1d5e54;
+}
+
+.confirmation {
+  min-height: 24px;
+  margin: 4px 0 0;
+  color: #1d6b3a;
+  line-height: 1.5;
+}
+
+.confirmation.error {
+  color: #a22d2d;
+}
+
+@media (max-width: 480px) {
+  .booking-card {
+    padding: 26px 20px;
+  }
+
+  .date-fields {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
